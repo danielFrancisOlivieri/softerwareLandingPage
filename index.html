@@ -1,0 +1,97 @@
+<!––
+1. Working off of your wireframe, code your new and improved landing page experience.
+2. Use a CSS framework of your choosing such as BoostrapCDN (https://getbootstrap.com/docs/4.3/getting-started/download/).
+3. The new landing page should be responsive. Note: The “program output” panel in CoderPad.io does not preview responsive screen sizes. 
+4. When you're finished, simply close the browser window. It will automatically be saved and submitted for review.
+––>
+
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <style>
+      body {
+       
+        color: white;
+      }
+      p, h1 {
+        color: black;
+      }
+      menu {
+          height: 200px;
+      }
+
+      ul li{
+        color: black;
+}
+    </style>
+  </head>
+  <body>
+    
+    <div class="ui blue secondary inverted menu">
+            
+        <a class="item">
+                <i class="circle icon"></i>
+                <!-- <img class="ui mini image circular" src="https://semantic-ui.com/images/wireframe/image.png"> -->
+                donorperfect Web Forms
+        </a>
+        
+        <div class="right menu">
+        
+          <a class="ui item">
+                <button class="ui button">
+                        Test Database one (cgtest1)
+            </button>
+          </a>
+        </div>
+      </div>
+    
+      <div class="ui container">
+          
+      <div class="ui red inverted segment">Form Status: Active</div>
+    
+      <h1 class="ui header center aligned">Congratulations! Your form is now active.</h1>
+    
+    <p class="ui center aligned">Your WebLink form has been successfully created using the <strong>Simple Donation Template</strong>. The link for your form is below.</p>
+    
+
+    <div class="ui right labeled input center aligned">
+            <input type="text" placeholder="http://mmarnien/weblink/weblink.aspx?name=ctgtest1&id=1170">
+            <div class="ui basic label">
+             Copy Link 
+            </div>
+            <div class="ui basic label">
+                    View 
+                  </div>
+          </div>
+
+          <div class="ui raised text container segment">
+                <h3 class="ui header">The WebLink Review & Acceptance Center offers many great features for enhancing your new WebLink form. Here are just a few:</h3>
+               
+            <ul>
+                <li> <h4>Modify email text and settings</h4> </li>
+                <li> <h4>upload your organization's logo</h4> </li>
+                <li> <h4>Create a friendly link to share</h4> </li>
+                <li> <h4>update codes for tracking</h4> </li>
+                <li> <h4>Browse other design options and tools</h4> </li>
+            </ul>
+
+           <p> To View or edit your new form, please log into the WebLink Review & Acceptance Center by clicking here. </p> 
+                 
+        </div>
+
+
+        <div class="ui raised text container segment">
+        <p> A confirmation email will be sent to the address(es) entered on the add form screen. This email contains additional details about your form and associated billing information. Please keep this email for your records. </p>
+        <p> Please Note: billing on your form is enabled. </p>
+    </div>
+
+  
+    <button class="ui button center right aligned">
+            Finish
+            </button>
+        </div>
+
+    </body>
+</html>
