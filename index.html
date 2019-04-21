@@ -17,6 +17,7 @@
       }
       p, h1 {
         color: black;
+        font-size: 11px;
       }
       menu {
           height: 200px;
@@ -25,6 +26,7 @@
       ul li{
         color: black;
 }
+  
     </style>
   </head>
   <body>
@@ -41,7 +43,7 @@
         
           <a class="ui item">
                 <button class="ui button">
-                        Test Database one (cgtest1)
+                        Test Database one (cgtest1) <i class="caret down icon"></i>
             </button>
           </a>
         </div>
@@ -49,22 +51,24 @@
     
       <div class="ui container">
           
-      <div class="ui red inverted segment">Form Status: Active</div>
+      <div class="ui green inverted segment">Form Status: Active</div>
     
       <h1 class="ui header center aligned">Congratulations! Your form is now active.</h1>
-    
+
+      <div  class="ui container center aligned"> 
     <p class="ui center aligned">Your WebLink form has been successfully created using the <strong>Simple Donation Template</strong>. The link for your form is below.</p>
     
 
     <div class="ui right labeled input center aligned">
-            <input type="text" placeholder="http://mmarnien/weblink/weblink.aspx?name=ctgtest1&id=1170">
-            <div class="ui basic label">
-             Copy Link 
+            <input type="text" value="http://mmarnien/weblink/weblink.aspx?name=ctgtest1&id=1170">
+            <div class="ui basic label button">
+             <strong>Copy Link</strong>
             </div>
-            <div class="ui basic label">
-                    View 
+            <div class="ui basic label button">
+                    <strong>View</strong> 
                   </div>
           </div>
+        </div>
 
           <div class="ui raised text container segment">
                 <h3 class="ui header">The WebLink Review & Acceptance Center offers many great features for enhancing your new WebLink form. Here are just a few:</h3>
@@ -87,10 +91,14 @@
         <p> Please Note: billing on your form is enabled. </p>
     </div>
 
-  
-    <button class="ui button center right aligned">
-            Finish
-            </button>
+  <div  class="ui container center aligned"> 
+      
+    <button class="ui huge button center aligned">
+        Finish
+        </button>
+    
+    </div>
+    
         </div>
 
     </body>
